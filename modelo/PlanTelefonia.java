@@ -77,7 +77,9 @@ public class PlanTelefonia
 
     public void Descuento(String operador)
     {
-        if(operador == "Movilujo")
+        String descuento = "Movilujo";
+        
+        if(operador == descuento)
         {
             setSaldo(getSaldo() / 2);
         }
